@@ -1,39 +1,11 @@
 # Responders
 
-[![Gem Version](https://badge.fury.io/rb/responders.png)](http://badge.fury.io/rb/responders)
-[![CircleCI](https://circleci.com/gh/USER/responders.svg?style=svg)](https://circleci.com/gh/USER/responders)
-[![Dependency Status](https://gemnasium.com/USER/responders.png)](https://gemnasium.com/USER/responders)
-[![Coverage Status](https://coveralls.io/responderss/USER/responders/badge.png)](https://coveralls.io/r/USER/responders)
-[![Join the chat at https://gitter.im/USER/responders](https://badges.gitter.im/USER/responders.svg)](https://gitter.im/USER/responders?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![Support](https://img.shields.io/badge/get-support-blue.svg)](https://boltops.com?utm_source=badge&utm_medium=badge&utm_campaign=responders)
+[![Gem Version](https://badge.fury.io/rb/jets-responders.png)](http://badge.fury.io/rb/jets-responders)
 
-TODO: Write a gem description
+[![BoltOps Badge](https://img.boltops.com/boltops/badges/boltops-badge.png)](https://www.boltops.com)
 
-## Usage
+[![BoltOps Learn Badge](https://img.boltops.com/boltops-learn/boltops-learn.png)](https://learn.boltops.com)
 
-    responders hello yourname
-    responders sub:goodbye yourname
+A set of responders modules to dry up your Jets app.
 
-The CLI tool also detects and tasks in the current folder's Rakefile and delegate to those tasks.
-
-## Installation
-
-Add this line to your application's Gemfile:
-
-    gem "responders"
-
-And then execute:
-
-    bundle
-
-Or install it yourself as:
-
-    gem install responders
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am "Add some feature"`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+This is a humble port of the original [responders](https://github.com/heartcombo/responders) to support the [Ruby on Jets](https://rubyonjets.com/) framework. A big thanks to the original authors of responders.

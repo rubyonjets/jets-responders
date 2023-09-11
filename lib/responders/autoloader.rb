@@ -4,7 +4,7 @@ module Responders
   class Autoloader
     class Inflector < Zeitwerk::Inflector
       def camelize(basename, _abspath)
-        map = { cli: "CLI", version: "VERSION" }
+        map = { version: "VERSION" }
         map[basename.to_sym] || super
       end
     end
@@ -13,7 +13,9 @@ module Responders
       def setup
         loader = Zeitwerk::Loader.new
         loader.inflector = Inflector.new
-        loader.push_dir(File.dirname(__dir__)) # lib
+        lib = File.dirname(__dir__)
+        loader.push_dir(lib)
+        loader.ignore("#{lib}/jets-responders.rb")
         loader.setup
       end
     end
