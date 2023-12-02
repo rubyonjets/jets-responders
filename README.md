@@ -1,4 +1,4 @@
-# Responders
+# Jets Responders
 
 [![Gem Version](https://badge.fury.io/rb/jets-responders.png)](http://badge.fury.io/rb/jets-responders)
 
